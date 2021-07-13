@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+body {
+    height: 100vh
+}
+
+.sunrise {
+  background: hsla(217, 96%, 11%, 1);
+
+  background: linear-gradient(270deg, hsla(217, 96%, 11%, 1) 10%, rgb(18, 60, 128) 30%, rgb(80, 121, 158)50%, rgb(167, 146, 108) 70%, rgb(216, 153, 35) 90%, rgb(175, 45, 13) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(217, 96%, 11%, 1) 10%, rgb(18, 60, 128) 30%, rgb(80, 121, 158)50%, rgb(167, 146, 108) 70%, rgb(216, 153, 35) 90%, rgb(175, 45, 13) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(217, 96%, 11%, 1) 10%, rgb(18, 60, 128) 30%, rgb(80, 121, 158)50%, rgb(167, 146, 108) 70%, rgb(216, 153, 35) 90%, rgb(175, 45, 13) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#011638", endColorstr="#312a50", GradientType=1 );
+  height: 98vh;
+}
+
+.morning {
+background: rgb(23, 89, 195);
+
+background: linear-gradient(270deg, rgb(23, 89, 195) 10%, rgb(50, 112, 212) 30%, rgb(65, 153, 230)50%, rgb(98, 165, 219) 70%, rgb(149, 210, 238) 90%, rgb(194, 224, 248) 100%);
+
+background: -moz-linear-gradient(270deg, rgb(23, 89, 195) 10%, rgb(50, 112, 212) 30%, rgb(65, 153, 230)50%, rgb(98, 165, 219) 70%, rgb(149, 210, 238) 90%, rgb(194, 224, 248) 100%);
+
+background: -webkit-linear-gradient(270deg, rgb(23, 89, 195) 10%, rgb(50, 112, 212) 30%, rgb(65, 153, 230)50%, rgb(98, 165, 219) 70%, rgb(149, 210, 238) 90%, rgb(194, 224, 248) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#011638", endColorstr="#312a50", GradientType=1 );
+height: 98vh;
+}
+
+.night {
+    background: rgb(18, 11, 49);
+    
+    background: linear-gradient(270deg, rgb(18, 11, 49) 10%, rgb(21, 14, 87) 30%, rgb(14, 4, 104)50%, rgb(13, 8, 95) 70%, rgb(19, 7, 90) 90%, rgb(8, 25, 82) 100%);
+    
+    background: -moz-linear-gradient(270deg, rgb(18, 11, 49) 10%, rgb(21, 14, 87) 30%, rgb(14, 4, 104)50%, rgb(13, 8, 95) 70%, rgb(19, 7, 90) 90%, rgb(8, 25, 82) 100%);
+    
+    background: -webkit-linear-gradient(270deg, rgb(18, 11, 49) 10%, rgb(21, 14, 87) 30%, rgb(14, 4, 104)50%, rgb(13, 8, 95) 70%, rgb(19, 7, 90) 90%, rgb(8, 25, 82) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#011638", endColorstr="#312a50", GradientType=1 );
+    height: 98vh;
+}
+
+.top-section {
+    height: 80vh;
+}
+
+.bot-section {
+    height: 18vh;
+    border: 5px double white;
+    border-radius: 20px;
+    background-color: rgba(245, 222, 179, 0.151);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sky-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    align-items: center;
+    border: 1px white solid;
+    height: 100%;
+    width: 20%;
+}
+
+.sky-changer {
+    height: 50%;
+    width: 20%;
+    border: none;
+    border-radius: 47%;
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+.sunriseButton {
+    background: linear-gradient(180deg, hsla(217, 96%, 11%, 1) 10%, rgb(18, 60, 128) 30%, rgb(80, 121, 158)50%, rgb(167, 146, 108) 70%, rgb(216, 153, 35) 90%, rgb(175, 45, 13) 100%);
+    text-shadow: rgb(228, 20, 20) 2px 2px 3px;
+}
+
+.morningButton {
+    background: linear-gradient(180deg, rgb(23, 89, 195) 10%, rgb(50, 112, 212) 30%, rgb(65, 153, 230)50%, rgb(98, 165, 219) 70%, rgb(149, 210, 238) 90%, rgb(194, 224, 248) 100%);
+    text-shadow: rgb(255, 255, 255) -2px 0px 4px;
+}
+
+.nightButton {
+    background: linear-gradient(180deg, rgb(18, 11, 49) 10%, rgb(21, 14, 87) 30%, rgb(14, 4, 104)50%, rgb(13, 8, 95) 70%, rgb(19, 7, 90) 90%, rgb(8, 25, 82) 100%);
+    color: gold;
+    text-shadow: teal 2px 2px 3px;
+}
